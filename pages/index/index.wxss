@@ -1,0 +1,89 @@
+.banners{
+  width: 100%;
+  height: 300rpx;
+}
+.banners image{
+  width: 100%;
+  height: 100%;
+}
+.navContainer{
+  display: flex;
+}
+.navContainer .navItem{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navContainer .navItem .iconfont{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  line-height: 100rpx;
+  text-align: center;
+  background: rgb(240, 19, 19);
+  font-size: 50rpx;
+  color: #fff;
+  margin: 20rpx 0;
+}
+.navContainer .navItem text{
+  font-size: 26rpx;
+}
+
+.recommendContainer {
+  padding: 20rpx;
+}
+.recommendContainer .recommendScroll{
+  display: flex;
+  height: 300rpx;
+}
+.recommendContainer .recommendScroll .scrollItem {
+  margin-right: 20rpx;
+}
+.recommendContainer .recommendScroll .scrollItem image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 10rpx;
+}
+.recommendContainer .recommendScroll .scrollItem text{
+  font-size: 26rpx;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.topList{
+  padding: 20rpx;
+}
+.topList .topListSwiper {
+  height: 420rpx;
+}
+.topList .topListSwiper .title{
+  font-size: 30rpx;
+  line-height: 80rpx;
+}
+.topList .topListSwiper .musicItem{
+  display: flex;
+  margin-bottom: 20rpx;
+}
+.topList .topListSwiper .musicItem image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 6rpx;
+}
+.topList .topListSwiper .musicItem .count {
+  width: 100rpx;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+}
+.topList .topListSwiper .musicItem .musicName {
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  max-width: 400rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
