@@ -48,7 +48,6 @@
   position: relative;
   display: flex;
   flex-direction: column;
-// background: linear-gradient(left, red, black);
   background: rgba(0, 0, 0, .7);
   height: 240rpx;
   color: #f7d680;
@@ -187,15 +186,22 @@
   color: #333;
   line-height: 80rpx;
 }
-
-.personalContent .recentPlay image {
+.recentPlayContainer .recentScroll{
+  display: flex;
+  height: 160rpx;
+}
+.recentPlayContainer .recentScroll .recentItem image{
   width: 160rpx;
   height: 160rpx;
   margin-left: 20rpx;
   border-radius: 20rpx;
 }
-
-
+.recentPlayContainer .other{
+  padding-left: 20rpx;
+  font-size: 32rpx;
+  color: #333;
+  line-height: 80rpx;
+}
 .cardList {
   margin-top: 20rpx;
 

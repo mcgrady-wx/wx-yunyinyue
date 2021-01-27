@@ -26,8 +26,8 @@
     {
       "pagePath": "pages/video/video",
       "text": "视频",
-      "iconPath": "/static/images/tabs/select.png",
-      "selectedIconPath": "/static/images/tabs/selected.png"
+      "iconPath": "/static/images/tabs/shipin.png",
+      "selectedIconPath": "/static/images/tabs/shipin-current.png"
     },
     {
       "pagePath": "pages/me/me",

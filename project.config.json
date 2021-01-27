@@ -64,6 +64,18 @@
         {
           "name": "个人",
           "pathName": "pages/me/me",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "登录",
+          "pathName": "pages/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "视频页",
+          "pathName": "pages/video/video",
           "scene": null
         }
       ]
