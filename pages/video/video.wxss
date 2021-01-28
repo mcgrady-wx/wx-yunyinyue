@@ -37,6 +37,7 @@
 }
 .videoScroll {
   margin-top: 10rpx;
+  height: calc(100vh - 152rpx);
 }
 .videoItem {
   padding: 0 3%;

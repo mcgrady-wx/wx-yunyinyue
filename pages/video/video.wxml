@@ -16,9 +16,9 @@
     </view>
   </scroll-view>
   <!-- 视频列表区域 -->
-  <scroll-view scroll-y class="videoScroll">
+  <scroll-view scroll-y class="videoScroll" refresher-enabled refresher-triggered="{{isTriggered}}" bindrefresherrefresh="handleRefresherrefresh" bindscrolltolower="handleScrolltolower">
     <view class="videoItem" wx:for="{{videoList}}" wx:key="id">
-      <video wx:if="{{item.data.vid===videoId}}" class="common" src="{{item.data.urlInfo.url}}" id="{{item.data.vid}}" object-fit="fill" bindplay="handlePlay" poster="{{item.data.coverUrl}}">
+      <video wx:if="{{item.data.vid===videoId}}" class="common" src="{{item.data.urlInfo.url}}" id="{{item.data.vid}}" object-fit="fill" bindplay="handlePlay" poster="{{item.data.coverUrl}}" bindtimeupdate="handletimeupdate" bindended="handleEnded">
       </video>
       <!-- 性能优化：使用image图片代替video标签 -->
       <image wx:else bindtap="handlePlay" id="{{item.data.vid}}" class="common" src="{{item.data.coverUrl}}"></image>
