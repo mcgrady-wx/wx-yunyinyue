@@ -76,6 +76,19 @@
         {
           "name": "视频页",
           "pathName": "pages/video/video",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "每日推荐",
+          "pathName": "pages/recommendSong/recommendSong",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "歌曲播放",
+          "pathName": "pages/songDetail/songDetail",
+          "query": "songid=29764563",
           "scene": null
         }
       ]

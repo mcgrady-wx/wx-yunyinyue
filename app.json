@@ -4,7 +4,9 @@
     "pages/search/search",
     "pages/video/video",
     "pages/login/login",
-    "pages/me/me"
+    "pages/me/me",
+    "pages/recommendSong/recommendSong",
+    "pages/songDetail/songDetail"
   ],
   "window":{
     "backgroundTextStyle":"light",

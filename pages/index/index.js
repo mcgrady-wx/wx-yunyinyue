@@ -49,6 +49,12 @@ Page({
     }
     //console.log(arr)
   },
+  //跳转到每日推荐歌单页面
+  gotoRecommendSong(){
+    wx.navigateTo({
+      url: '/pages/recommendSong/recommendSong',
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
