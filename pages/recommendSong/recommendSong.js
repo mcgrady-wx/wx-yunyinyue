@@ -62,6 +62,12 @@ Page({
     })
     //数据请求成功后关闭交互提示
     wx.hideLoading()
+    //把歌单保存到本地，方便播放页面前后切歌使用,只需要ID
+    let songListId=res.recommend.map((item)=>{
+      return item.id
+    })
+    //console.log(songListId)
+    wx.setStorageSync('songListId', songListId)
   },
   //跳转到歌曲播放页面
   toSongDetail(event){

@@ -8,6 +8,7 @@
     "pages/recommendSong/recommendSong",
     "pages/songDetail/songDetail"
   ],
+  "requiredBackgroundModes": ["audio"],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#d43c33",
