@@ -90,6 +90,12 @@
           "pathName": "pages/songDetail/songDetail",
           "query": "songid=28059417",
           "scene": null
+        },
+        {
+          "name": "搜索页面",
+          "pathName": "pages/search/search",
+          "query": "songid=28059417",
+          "scene": null
         }
       ]
     }
